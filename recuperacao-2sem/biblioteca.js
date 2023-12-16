@@ -75,6 +75,7 @@ const Genero = sequelize.define('Genero', {
     allowNull: false,
     },
     });
+
 // Definição do modelo LivroGenero (relação n-m entre Livro e Genero)
 const LivroGenero = sequelize.define('LivroGenero', {});
 
